@@ -1,57 +1,67 @@
-import React from 'react';
-import { GraduationCap, Award, Calendar } from 'lucide-react';
+import React from "react";
+import { GraduationCap, Award, Calendar } from "lucide-react";
 
 const EducationSection: React.FC = () => {
   const educationAndCertificates = [
     {
-      title: 'Bachelor of Science in Computer Science',
-      institution: 'Dr.B.R Ambedkar University, Srikakulam',
-      period: '2022 - 2025',
+      title: "Bachelor of Science in Computer Science",
+      institution: "Dr.B.R Ambedkar University, Srikakulam",
+      period: "2022 - 2025",
       description:
-        'Specialized in Data analysis, data modeling. Graduated with honors. With 80%',
+        "Specialized in Data analysis, data modeling. Graduated with honors. With 80%",
       icon: GraduationCap,
-      color: 'from-blue-400 to-blue-600',
-      link: 'https://res.cloudinary.com/dssiflo17/image/upload/v1758364211/Degree_certificate_lb67bx.jpg' // ✅ Degree Certificate Link
+      color: "from-blue-400 to-blue-600",
+      link: "https://res.cloudinary.com/dssiflo17/image/upload/v1758364211/Degree_certificate_lb67bx.jpg", // ✅ Degree Certificate Link
     },
     {
-      title: 'Cisco Data Analytics Certificate',
-      institution: 'Cisco Career Certificates',
-      period: '2025',
+      title: "Cisco Data Analytics Certificate",
+      institution: "Cisco Career Certificates",
+      period: "2025",
       description:
-        'Comprehensive program covering data analysis, visualization, and business intelligence tools.',
+        "Comprehensive program covering data analysis, visualization, and business intelligence tools.",
       icon: Award,
-      color: 'from-green-400 to-green-600',
-      link: 'https://res.cloudinary.com/dssiflo17/image/upload/v1758371244/Data_Analyst_Cisco_nrlvtu.png' // 🔗 Replace with actual Cisco certificate link
+      color: "from-green-400 to-green-600",
+      link: "https://res.cloudinary.com/dssiflo17/image/upload/v1758371244/Data_Analyst_Cisco_nrlvtu.png", // 🔗 Replace with actual Cisco certificate link
     },
     {
-      title: 'Microsoft Power BI For Data Analyst Certificate',
-      institution: 'Microsoft',
-      period: '2025',
+      title: "Microsoft Power BI For Data Analyst Certificate",
+      institution: "Microsoft",
+      period: "2025",
       description:
-        'Master advanced Excel, SQL techniques for data manipulation, analysis, and database management.',
+        "Master advanced Excel, SQL techniques for data manipulation, analysis, and database management.",
       icon: Award,
-      color: 'from-purple-400 to-purple-600',
-      link: 'https://res.cloudinary.com/dssiflo17/image/upload/v1758289717/Power_BI_Certificate_m0rp5q.png' // 🔗 Replace with actual Power BI certificate link
+      color: "from-purple-400 to-purple-600",
+      link: "https://res.cloudinary.com/dssiflo17/image/upload/v1758289717/Power_BI_Certificate_m0rp5q.png", // 🔗 Replace with actual Power BI certificate link
     },
     {
-      title: 'SQL for Data Analyst Certificate',
-      institution: 'Nxtwave, HYD',
-      period: '2025',
+      title: "SQL for Data Analyst Certificate",
+      institution: "Nxtwave, HYD",
+      period: "2025",
       description:
-        'Advanced SQL techniques for data manipulation, analysis, and database management.',
+        "Advanced SQL techniques for data manipulation, analysis, and database management.",
       icon: Award,
-      color: 'from-green-400 to-green-600',
-      link: 'https://res.cloudinary.com/dssiflo17/image/upload/v1758365153/SQL_wlp9s7.png' // 🔗 Replace with actual SQL certificate link
+      color: "from-green-400 to-green-600",
+      link: "https://res.cloudinary.com/dssiflo17/image/upload/v1758365153/SQL_wlp9s7.png", // 🔗 Replace with actual SQL certificate link
     },
     {
-      title: 'Python for Data Analyst Certificate',
-      institution: 'Reliance Foundation',
-      period: '2025',
-      description: 'Comprehensive Python programming for data analysis.',
+      title: "Data Science Certificate",
+      institution: "Reliance Foundation",
+      period: "2025",
+      description:
+        "Advanced Data Science techniques for data manipulation, analysis, and database management.",
       icon: Award,
-      color: 'from-purple-400 to-purple-600',
-      link: 'https://res.cloudinary.com/dssiflo17/image/upload/v1758365301/Python_Nxt_vxbode.png' // 🔗 Replace with actual Python certificate link
-    }
+      color: "from-purple-400 to-purple-600",
+      link: "https://res.cloudinary.com/dssiflo17/image/upload/v1758435107/data_science_jk3lpb.jpg", // 🔗 Replace with actual SQL certificate link
+    },
+    {
+      title: "Python for Data Analyst Certificate",
+      institution: "Reliance Foundation",
+      period: "2025",
+      description: "Comprehensive Python programming for data analysis.",
+      icon: Award,
+      color: "from-green-400 to-green-600",
+      link: "https://res.cloudinary.com/dssiflo17/image/upload/v1758434927/python_programming_oszxtq.jpg", // 🔗 Replace with actual Python certificate link
+    },
   ];
 
   return (
@@ -133,9 +143,9 @@ const EducationSection: React.FC = () => {
             </h3>
             <div className="grid md:grid-cols-3 gap-6">
               {[
-                'Power BI Desktop Specialist',
-                'Microsoft Excel Expert',
-                'Data Visualization Best Practices'
+                "Power BI Desktop Specialist",
+                "Microsoft Excel Expert",
+                "Data Visualization Best Practices",
               ].map((cert, index) => (
                 <div
                   key={cert}
