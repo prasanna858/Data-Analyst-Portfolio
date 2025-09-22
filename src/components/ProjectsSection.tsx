@@ -1,48 +1,63 @@
-import React from 'react';
-import { ExternalLink, Github, BarChart3, Users, ShoppingCart, Activity } from 'lucide-react';
+import React from "react";
+import {
+  ExternalLink,
+  Github,
+  BarChart3,
+  Users,
+  ShoppingCart,
+  Activity,
+} from "lucide-react";
 
 const ProjectsSection: React.FC = () => {
   const projects = [
     {
-      title: 'Sales Dashboard Analytics',
-      description: 'Interactive Power BI dashboard analyzing sales performance, trends, and KPIs across different regions and time periods.',
-      tech: ['Power BI', 'SQL', 'Excel'],
+      title: "Sales Dashboard Analytics",
+      description:
+        "Developed a Power BI Sales Dashboard using data cleaning, data modeling, and DAX to provide clear, actionable insights into sales trends and business performance.",
+      tech: ["Power BI", "SQL", "Excel"],
       icon: BarChart3,
-      color: 'from-blue-400 to-blue-600',
-      image: 'https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800',
-      github: '#',
-      demo: '#'
+      color: "from-blue-400 to-blue-600",
+      image:
+        "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800",
+      github: "#",
+      demo: "https://app.powerbi.com/view?r=eyJrIjoiYTQ2OTFhNjQtNjRmZC00MzczLWI1MDAtYWJlNzJhMzUyNTI4IiwidCI6IjZmNWMzNDRiLTdjOTYtNDcwMi04OWI2LTM3N2YwNjUyMTE4MCJ9",
     },
     {
-      title: 'Customer Segmentation Analysis',
-      description: 'Python-based customer segmentation using clustering algorithms to identify distinct customer groups for targeted marketing.',
-      tech: ['Python', 'Pandas', 'Scikit-learn', 'Matplotlib'],
+      title: "Customer Segmentation Analysis",
+      description:
+        "Python-based customer segmentation using clustering algorithms to identify distinct customer groups for targeted marketing.",
+      tech: ["Python", "Pandas", "Scikit-learn", "Matplotlib"],
       icon: Users,
-      color: 'from-purple-400 to-purple-600',
-      image: 'https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg?auto=compress&cs=tinysrgb&w=800',
-      github: '#',
-      demo: '#'
+      color: "from-purple-400 to-purple-600",
+      image:
+        "https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg?auto=compress&cs=tinysrgb&w=800",
+      github: "#",
+      demo: "#",
     },
     {
-      title: 'E-commerce Data Analysis',
-      description: 'Comprehensive analysis of e-commerce transactions using SQL queries to derive insights on customer behavior and sales patterns.',
-      tech: ['SQL', 'Tableau', 'Python'],
+      title: "E-commerce Data Analysis",
+      description:
+        "Comprehensive analysis of e-commerce transactions using SQL queries to derive insights on customer behavior and sales patterns.",
+      tech: ["SQL", "Tableau", "Python"],
       icon: ShoppingCart,
-      color: 'from-green-400 to-green-600',
-      image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800',
-      github: '#',
-      demo: '#'
+      color: "from-green-400 to-green-600",
+      image:
+        "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800",
+      github: "#",
+      demo: "#",
     },
     {
-      title: 'COVID-19 Data Visualization',
-      description: 'Interactive dashboard tracking COVID-19 trends with real-time data visualization and statistical analysis of global patterns.',
-      tech: ['Tableau', 'Python', 'Data Cleaning'],
+      title: "COVID-19 Data Visualization",
+      description:
+        "Interactive dashboard tracking COVID-19 trends with real-time data visualization and statistical analysis of global patterns.",
+      tech: ["Tableau", "Python", "Data Cleaning"],
       icon: Activity,
-      color: 'from-red-400 to-red-600',
-      image: 'https://images.pexels.com/photos/3970330/pexels-photo-3970330.jpeg?auto=compress&cs=tinysrgb&w=800',
-      github: '#',
-      demo: '#'
-    }
+      color: "from-red-400 to-red-600",
+      image:
+        "https://images.pexels.com/photos/3970330/pexels-photo-3970330.jpeg?auto=compress&cs=tinysrgb&w=800",
+      github: "#",
+      demo: "#",
+    },
   ];
 
   return (
@@ -54,7 +69,9 @@ const ProjectsSection: React.FC = () => {
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
               Featured <span className="text-blue-400">Projects</span>
             </h2>
-            <p className="text-xl text-gray-400">Data analysis projects showcasing my skills and expertise</p>
+            <p className="text-xl text-gray-400">
+              Data analysis projects showcasing my skills and expertise
+            </p>
             <div className="w-24 h-1 bg-gradient-to-r from-blue-400 to-gold-400 mx-auto mt-4"></div>
           </div>
 
@@ -76,7 +93,9 @@ const ProjectsSection: React.FC = () => {
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent"></div>
-                    <div className={`absolute top-4 left-4 p-3 rounded-lg bg-gradient-to-r ${project.color}`}>
+                    <div
+                      className={`absolute top-4 left-4 p-3 rounded-lg bg-gradient-to-r ${project.color}`}
+                    >
                       <Icon className="w-6 h-6 text-white" />
                     </div>
                   </div>
