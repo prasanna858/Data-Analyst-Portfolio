@@ -35,16 +35,16 @@ const ProjectsSection: React.FC = () => {
       demo: "#",
     },
     {
-      title: "E-commerce Data Analysis",
+      title: "Chocolate Business Data Analysis",
       description:
-        "Comprehensive analysis of e-commerce transactions using SQL queries to derive insights on customer behavior and sales patterns.",
-      tech: ["SQL", "Tableau", "Python"],
+        "Performed end-to-end sales and performance analysis for a chocolate business using SQL for data extraction, Advanced Excel for cleaning and preprocessing, and Power BI (with DAX) for building interactive dashboards. Delivered insights on revenue trends, product performance, and using BI Workspace for collaboration.",
+      tech: ["SQL", "Advanced Excel", "Power BI", "DAX", "BI Workspace"],
       icon: ShoppingCart,
       color: "from-green-400 to-green-600",
       image:
         "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800",
       github: "#",
-      demo: "#",
+      demo: "https://app.powerbi.com/view?r=eyJrIjoiYTg1NTNkODAtOTliNi00OGRhLWFjMGUtMWY0ZjI2MTY4ZDM2IiwidCI6IjZmNWMzNDRiLTdjOTYtNDcwMi04OWI2LTM3N2YwNjUyMTE4MCJ9",
     },
     {
       title: "Data Analyst Portfolio Website",
