@@ -47,6 +47,17 @@ const ProjectsSection: React.FC = () => {
       demo: "#",
     },
     {
+      title: "Data Analyst Portfolio Website",
+      description:
+        "Showcasing my data analysis projects and skills Like DAX , building data models with relationships through a personal portfolio website.",
+      tech: ["React", "Tailwind CSS", "JavaScript", "HTML", "CSS"],
+      icon: BarChart3,
+      color: "from-green-400 to-green-600",
+      image: "https://miro.medium.com/v2/1*dxD_phdmgHBT_GHogTUzGg.png",
+      github: "https://github.com/prasanna858/Data-Analyst-Portfolio.git",
+      demo: "https://data-analyst-portfol.netlify.app/",
+    },
+    {
       title: "COVID-19 Data Visualization",
       description:
         "Interactive dashboard tracking COVID-19 trends with real-time data visualization and statistical analysis of global patterns.",
