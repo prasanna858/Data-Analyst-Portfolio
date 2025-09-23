@@ -65,16 +65,16 @@ const ProjectsSection: React.FC = () => {
       demo: "https://data-analyst-portfol.netlify.app/",
     },
     {
-      title: "COVID-19 Data Visualization",
+      title: "COVID-19 Dashboard and Analysis",
       description:
-        "Interactive dashboard tracking COVID-19 trends with real-time data visualization and statistical analysis of global patterns.",
-      tech: ["Tableau", "Python", "Data Cleaning"],
+        "This project showcases an interactive COVID-19 Dashboard built in Power BI to analyze and visualize the global impact of the pandemic. The dashboard consolidates key metrics and provides real-time insights into the spread, recovery, and testing efforts worldwide.",
+      tech: ["Power BI", "Advanced Excel", "Data Cleaning", "workspace"],
       icon: Activity,
       color: "from-red-400 to-red-600",
       image:
         "https://images.pexels.com/photos/3970330/pexels-photo-3970330.jpeg?auto=compress&cs=tinysrgb&w=800",
       github: "#",
-      demo: "#",
+      demo: "https://app.powerbi.com/view?r=eyJrIjoiYWY3ODk0MmItYWFhMi00MmQxLWJmMzctZTJkYzVjNjc2NTU1IiwidCI6IjZmNWMzNDRiLTdjOTYtNDcwMi04OWI2LTM3N2YwNjUyMTE4MCJ9",
     },
   ];
 
