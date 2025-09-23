@@ -1,14 +1,51 @@
-import React from 'react';
-import { Code, Database, BarChart, PieChart, TrendingUp, FileSpreadsheet } from 'lucide-react';
+import React from "react";
+import {
+  Code,
+  Database,
+  BarChart,
+  PieChart,
+  TrendingUp,
+  FileSpreadsheet,
+} from "lucide-react";
 
 const SkillsSection: React.FC = () => {
   const skills = [
-    { name: 'Python', level: 85, icon: Code, color: 'from-blue-400 to-blue-600' },
-    { name: 'SQL', level: 90, icon: Database, color: 'from-green-400 to-green-600' },
-    { name: 'Excel', level: 95, icon: FileSpreadsheet, color: 'from-emerald-400 to-emerald-600' },
-    { name: 'Power BI', level: 90, icon: BarChart, color: 'from-yellow-400 to-yellow-600' },
-    { name: 'Tableau', level: 55, icon: PieChart, color: 'from-purple-400 to-purple-600' },
-    { name: 'Statistics', level: 85, icon: TrendingUp, color: 'from-red-400 to-red-600' },
+    {
+      name: "Python",
+      level: 85,
+      icon: Code,
+      color: "from-blue-400 to-blue-600",
+    },
+    {
+      name: "SQL",
+      level: 90,
+      icon: Database,
+      color: "from-green-400 to-green-600",
+    },
+    {
+      name: "Excel",
+      level: 95,
+      icon: FileSpreadsheet,
+      color: "from-emerald-400 to-emerald-600",
+    },
+    {
+      name: "Power BI",
+      level: 90,
+      icon: BarChart,
+      color: "from-yellow-400 to-yellow-600",
+    },
+    {
+      name: "Jupyter Notebook",
+      level: 85,
+      icon: PieChart,
+      color: "from-purple-400 to-purple-600",
+    },
+    {
+      name: "Statistics",
+      level: 85,
+      icon: TrendingUp,
+      color: "from-red-400 to-red-600",
+    },
   ];
 
   return (
@@ -20,7 +57,9 @@ const SkillsSection: React.FC = () => {
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
               Technical <span className="text-blue-400">Skills</span>
             </h2>
-            <p className="text-xl text-gray-400">Tools and technologies I work with</p>
+            <p className="text-xl text-gray-400">
+              Tools and technologies I work with
+            </p>
             <div className="w-24 h-1 bg-gradient-to-r from-blue-400 to-gold-400 mx-auto mt-4"></div>
           </div>
 
@@ -36,11 +75,15 @@ const SkillsSection: React.FC = () => {
                 >
                   {/* Skill Header */}
                   <div className="flex items-center space-x-4 mb-4">
-                    <div className={`p-3 rounded-lg bg-gradient-to-r ${skill.color}`}>
+                    <div
+                      className={`p-3 rounded-lg bg-gradient-to-r ${skill.color}`}
+                    >
                       <Icon className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <h3 className="text-xl font-semibold text-white">{skill.name}</h3>
+                      <h3 className="text-xl font-semibold text-white">
+                        {skill.name}
+                      </h3>
                       <span className="text-gray-400">{skill.level}%</span>
                     </div>
                   </div>
@@ -62,15 +105,17 @@ const SkillsSection: React.FC = () => {
 
           {/* Additional Skills */}
           <div className="mt-16 text-center">
-            <h3 className="text-2xl font-semibold text-white mb-8">Additional Competencies</h3>
+            <h3 className="text-2xl font-semibold text-white mb-8">
+              Additional Competencies
+            </h3>
             <div className="flex flex-wrap justify-center gap-4">
               {[
-                'Data Cleaning',
-                'Data Visualization',
-                'Statistical Analysis',
-                'Machine Learning Basics',
-                'Basic Business Intelligence',
-                'Report Generation'
+                "Data Cleaning",
+                "Data Visualization",
+                "Statistical Analysis",
+                "Machine Learning Basics",
+                "Basic Business Intelligence",
+                "Report Generation",
               ].map((skill, index) => (
                 <span
                   key={skill}
