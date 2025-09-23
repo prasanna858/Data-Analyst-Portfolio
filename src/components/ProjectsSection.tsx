@@ -25,14 +25,21 @@ const ProjectsSection: React.FC = () => {
     {
       title: "Customer Segmentation Analysis",
       description:
-        "Python-based customer segmentation using clustering algorithms to identify distinct customer groups for targeted marketing.",
-      tech: ["Python", "Pandas", "Scikit-learn", "Matplotlib"],
+        "In this project, I performed a comprehensive Customer Segmentation Analysis to identify meaningful customer groups based on behavioral and demographic attributes. The goal was to understand customer patterns, improve targeted marketing strategies, and enhance customer retention.",
+      tech: [
+        "Python",
+        "Anaconda",
+        "Jupyter notebook",
+        "SQL",
+        "Excel",
+        "Power BI",
+      ],
       icon: Users,
       color: "from-purple-400 to-purple-600",
       image:
         "https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg?auto=compress&cs=tinysrgb&w=800",
       github: "#",
-      demo: "#",
+      demo: "https://app.powerbi.com/view?r=eyJrIjoiNjVhOGJiZmItYjZlNS00NjFmLWFjMTctOWJiYjcwMjRlNDgzIiwidCI6IjZmNWMzNDRiLTdjOTYtNDcwMi04OWI2LTM3N2YwNjUyMTE4MCJ9",
     },
     {
       title: "Chocolate Business Data Analysis",
