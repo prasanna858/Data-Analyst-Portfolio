@@ -79,7 +79,7 @@ const HeroSection: React.FC = () => {
             View My Work
           </button>
           <a
-            href="https://drive.google.com/file/d/1lDMil5Cm0IjkeWd_5PV8erY5XfuxwLbZ/view?usp=drive_link" // 🔗 replace with your resume file path or Google Drive link
+            href="https://drive.google.com/file/d/13oK3zHOy9u18lPIZRF2aku1xXMgEvcSV/view?usp=drive_link" // 🔗 replace with your resume file path or Google Drive link
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-4 border-2 border-gold-400 text-gold-400 font-semibold rounded-full hover:bg-gold-400 hover:text-gray-900 transform hover:scale-105 transition-all duration-300 inline-block text-center"
@@ -87,7 +87,7 @@ const HeroSection: React.FC = () => {
             View Business Analyst Resume
           </a>
           <a
-            href="https://drive.google.com/file/d/1JkmlVZfYhHx0ONF2U6ZrKKZTnR4iO_b3/view?usp=drive_link" // 🔗 replace with your resume file path or Google Drive link
+            href="https://drive.google.com/file/d/1orMtVMaIpb-ccKVixrTPHacPvt-Y9nOv/view?usp=drive_link" // 🔗 replace with your resume file path or Google Drive link
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-4 border-2 border-Silver-400 text-Silver-400 font-semibold rounded-full hover:bg-gold-400 hover:text-gray-900 transform hover:scale-105 transition-all duration-300 inline-block text-center"
