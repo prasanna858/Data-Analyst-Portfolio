@@ -19,7 +19,7 @@ const ProjectsSection: React.FC = () => {
       color: "from-blue-400 to-blue-600",
       image:
         "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800",
-      github: "#",
+      github: "https://github.com/prasanna858/Sales_data_Analysis.git",
       demo: "https://app.powerbi.com/view?r=eyJrIjoiYTQ2OTFhNjQtNjRmZC00MzczLWI1MDAtYWJlNzJhMzUyNTI4IiwidCI6IjZmNWMzNDRiLTdjOTYtNDcwMi04OWI2LTM3N2YwNjUyMTE4MCJ9",
     },
     {
@@ -38,7 +38,8 @@ const ProjectsSection: React.FC = () => {
       color: "from-purple-400 to-purple-600",
       image:
         "https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg?auto=compress&cs=tinysrgb&w=800",
-      github: "#",
+      github:
+        "https://github.com/prasanna858/Customer_Segmentation_Analysis.git",
       demo: "https://app.powerbi.com/view?r=eyJrIjoiNjVhOGJiZmItYjZlNS00NjFmLWFjMTctOWJiYjcwMjRlNDgzIiwidCI6IjZmNWMzNDRiLTdjOTYtNDcwMi04OWI2LTM3N2YwNjUyMTE4MCJ9",
     },
     {
@@ -50,7 +51,7 @@ const ProjectsSection: React.FC = () => {
       color: "from-green-400 to-green-600",
       image:
         "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800",
-      github: "#",
+      github: "https://github.com/prasanna858/Chocolate_business.git",
       demo: "https://app.powerbi.com/view?r=eyJrIjoiYTg1NTNkODAtOTliNi00OGRhLWFjMGUtMWY0ZjI2MTY4ZDM2IiwidCI6IjZmNWMzNDRiLTdjOTYtNDcwMi04OWI2LTM3N2YwNjUyMTE4MCJ9",
     },
     {
@@ -73,7 +74,7 @@ const ProjectsSection: React.FC = () => {
       color: "from-red-400 to-red-600",
       image:
         "https://images.pexels.com/photos/3970330/pexels-photo-3970330.jpeg?auto=compress&cs=tinysrgb&w=800",
-      github: "#",
+      github: "https://github.com/prasanna858/Covid-19_dashboard.git",
       demo: "https://app.powerbi.com/view?r=eyJrIjoiYWY3ODk0MmItYWFhMi00MmQxLWJmMzctZTJkYzVjNjc2NTU1IiwidCI6IjZmNWMzNDRiLTdjOTYtNDcwMi04OWI2LTM3N2YwNjUyMTE4MCJ9",
     },
   ];
